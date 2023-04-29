@@ -1,4 +1,4 @@
-from synonymes import linternaute
+import synonymes
 """parole = input("Entrez vos paroles ici :\n")
 new = []
 
@@ -11,3 +11,6 @@ for mot in parole.split(" "):
     else:
         new.append(new_mot[0])
 print(" ".join(new))"""
+
+
+print(synonymes.linternaute("hello"))
