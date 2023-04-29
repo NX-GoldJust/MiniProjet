@@ -1,7 +1,10 @@
-operation = input("Entrez une opération :\n")
+from os import system
+while True:
+    operation = input("Entrez une opération :\n")
 
-#Remplacement des signes :
+    #Remplacement des signes :
 
-operation = operation.replace("x", "*")
+    operation = operation.replace("x", "*")
 
-print(eval(operation))
+    print(eval(operation))
+    system("cls")
