@@ -8,3 +8,4 @@ for mot in parole.split(" "):
         new.append(mot)
     else:
         new.append(new_mot[0])
+print("".join(new))
